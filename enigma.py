@@ -15,11 +15,12 @@ rotors = {1:rotor1, 2: rotor2, 3: rotor3, 4: rotor4, 5: rotor5}
 rotorsNotch = {1: rotor1Notch, 2: rotor2Notch, 3: rotor3Notch, 4: rotor4Notch, 5: rotor5Notch, }
 
 reflectorB = "YRUHQSLDPXNGOKMIEBFZCWVJAT"
+reflectorC = "FVPJIAOYEDRZXWGCTKUQSBNMHL"
 
 ringSetting ="FVN"
 PB = { 'A':'A', 'B':'J', 'C':'X', 'D':'D', 'E':'S', 'F':'Q', 'G':'O', 'H':'Y', 'I':'T', 'J':'B', 'K':'L', 'L':'K', 'M':'M', 'N':'P', 'O':'G', 'P':'N', 'Q':'F', 'R':'R', 'S':'E', 'T':'I', 'U':'U', 'V':'Z', 'W':'W', 'X':'C', 'Y':'H', 'Z':'V' }
-
 initialSetting = "EHZ"
+
 rotorSettiing = [1,2,5]
 
 rotorA = rotors[rotorSettiing[0]]
@@ -54,7 +55,6 @@ for i in range(ord(initialSetting[2])-ord('A')):
     rotorC = rotate(rotorC)
 
 displayLetters = initialSetting[:]
-print(displayLetters)
 inpu = 'IHKNMXFS'
 rotateB = False
 rotateC = False
